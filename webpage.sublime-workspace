@@ -27,6 +27,24 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 5303,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Searching 23 files for \"twitter\"\n\n/Users/feeley19/Git/webpage/index.html:\n   32  						<a href=\"#me\" class=\"fa fa-home active\"><span>Home</span></a>\n   33  						<a href=\"#work\" class=\"fa fa-folder\"><span>Work</span></a>\n   34: 						<a href=\"http://twitter.com/n33co\" class=\"fa fa-twitter\"><span>Twitter</span></a>\n   35  					</nav>\n   36  \n\n/Users/feeley19/Git/webpage/css/style.css:\n  560  		.fa-resize-horizontal:before{content:\"\\f07e\"}\n  561  		.fa-bar-chart-o:before{content:\"\\f080\"}\n  562: 		.fa-twitter-square:before{content:\"\\f081\"}\n  563  		.fa-facebook-square:before{content:\"\\f082\"}\n  564  		.fa-camera-retro:before{content:\"\\f083\"}\n  ...\n  583  		.fa-bookmark-o:before{content:\"\\f097\"}\n  584  		.fa-phone-square:before{content:\"\\f098\"}\n  585: 		.fa-twitter:before{content:\"\\f099\"}\n  586  		.fa-facebook:before{content:\"\\f09a\"}\n  587  		.fa-github:before{content:\"\\f09b\"}\n\n5 matches across 2 files\n",
+			"settings":
+			{
+				"buffer_size": 911,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -64,6 +82,13 @@
 	},
 	"file_history":
 	[
+		"/Users/feeley19/Git/webpage/js/init.js",
+		"/Users/feeley19/Git/webpage/css/style-mobile.css",
+		"/Users/feeley19/Git/webpage/stylesheets/stylesheet.css",
+		"/Users/feeley19/Git/webpage/css/style-desktop.css",
+		"/Users/feeley19/Git/webpage/css/noscript.css",
+		"/Users/feeley19/Git/webpage/javascripts/main.js",
+		"/Users/feeley19/Git/webpage/stylesheets/print.css",
 		"/Users/feeley19/Downloads/html5-boilerplate-4.3.0/doc/crossdomain.md",
 		"/Users/feeley19/Movies/Projects/Wedding Video/python/duplicate_nuke_file.py",
 		"/Users/feeley19/Downloads/ControllerList-15.plist"
@@ -74,9 +99,10 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 102.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -84,6 +110,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"twitter",
+			"button",
+			".com",
+			"button",
+			"byline",
+			"panel",
+			"\"me\"",
+			" ",
+			"me",
+			"byline",
 			"4",
 			"/\")",
 			"'",
@@ -107,8 +143,95 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 5303,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1227,
+								1227
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"settings":
+					{
+						"buffer_size": 911,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										250,
+										257
+									],
+									[
+										282,
+										289
+									],
+									[
+										297,
+										304
+									],
+									[
+										504,
+										511
+									],
+									[
+										763,
+										770
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								256,
+								256
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
