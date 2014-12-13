@@ -31,18 +31,26 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 5303,
+				"buffer_size": 6484,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "Searching 23 files for \"twitter\"\n\n/Users/feeley19/Git/webpage/index.html:\n   32  						<a href=\"#me\" class=\"fa fa-home active\"><span>Home</span></a>\n   33  						<a href=\"#work\" class=\"fa fa-folder\"><span>Work</span></a>\n   34: 						<a href=\"http://twitter.com/n33co\" class=\"fa fa-twitter\"><span>Twitter</span></a>\n   35  					</nav>\n   36  \n\n/Users/feeley19/Git/webpage/css/style.css:\n  560  		.fa-resize-horizontal:before{content:\"\\f07e\"}\n  561  		.fa-bar-chart-o:before{content:\"\\f080\"}\n  562: 		.fa-twitter-square:before{content:\"\\f081\"}\n  563  		.fa-facebook-square:before{content:\"\\f082\"}\n  564  		.fa-camera-retro:before{content:\"\\f083\"}\n  ...\n  583  		.fa-bookmark-o:before{content:\"\\f097\"}\n  584  		.fa-phone-square:before{content:\"\\f098\"}\n  585: 		.fa-twitter:before{content:\"\\f099\"}\n  586  		.fa-facebook:before{content:\"\\f09a\"}\n  587  		.fa-github:before{content:\"\\f09b\"}\n\n5 matches across 2 files\n",
+			"contents": "Searching 25 files for \"X-Frame-Options\"\n\n0 matches across 0 files\n\n\nSearching 25 files for \"SAMEORIGIN\"\n\n0 matches across 0 files\n\n\nSearching 25 files for \"row_half\"\n\n0 matches across 0 files\n",
 			"settings":
 			{
-				"buffer_size": 911,
+				"buffer_size": 193,
 				"line_ending": "Unix",
 				"name": "Find Results",
 				"scratch": true
+			}
+		},
+		{
+			"file": "stylesheets/stylesheet.css",
+			"settings":
+			{
+				"buffer_size": 7616,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -82,6 +90,9 @@
 	},
 	"file_history":
 	[
+		"/Users/feeley19/Git/webpage/gameindex.html",
+		"/Users/feeley19/Git/webpage/css/font/fontawesome-webfont.svg",
+		"/Users/feeley19/Git/webpage/css/style.css",
 		"/Users/feeley19/Git/webpage/js/init.js",
 		"/Users/feeley19/Git/webpage/css/style-mobile.css",
 		"/Users/feeley19/Git/webpage/stylesheets/stylesheet.css",
@@ -99,7 +110,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 102.0,
+		"height": 0.0,
 		"where_history":
 		[
 			""
@@ -110,6 +121,18 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"target",
+			"row_half",
+			"SAMEORIGIN",
+			"X-Frame-Options",
+			"alt",
+			"Pong",
+			"work",
+			"Work",
+			"f015",
+			"fa-home",
+			"fa fa-folder",
+			"http://howquickly.com/",
 			"twitter",
 			"button",
 			".com",
@@ -151,15 +174,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 5303,
+						"buffer_size": 6484,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1227,
-								1227
+								192,
+								192
 							]
 						],
 						"settings":
@@ -177,49 +200,21 @@
 					"buffer": 1,
 					"settings":
 					{
-						"buffer_size": 911,
+						"buffer_size": 193,
 						"regions":
 						{
-							"match":
-							{
-								"flags": 112,
-								"regions":
-								[
-									[
-										250,
-										257
-									],
-									[
-										282,
-										289
-									],
-									[
-										297,
-										304
-									],
-									[
-										504,
-										511
-									],
-									[
-										763,
-										770
-									]
-								],
-								"scope": ""
-							}
 						},
 						"selection":
 						[
 							[
-								256,
-								256
+								133,
+								133
 							]
 						],
 						"settings":
 						{
 							"detect_indentation": false,
-							"output_tag": 1,
+							"output_tag": 3,
 							"result_base_dir": "",
 							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
 							"result_line_regex": "^ +([0-9]+):",
@@ -227,7 +222,35 @@
 							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 198.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "stylesheets/stylesheet.css",
+					"settings":
+					{
+						"buffer_size": 7616,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 130.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -291,6 +314,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 224.0,
+	"side_bar_width": 316.0,
 	"status_bar_visible": true
 }
