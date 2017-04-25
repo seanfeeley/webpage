@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"ren",
+				"renderer	[class]"
+			],
+			[
+				"AS",
+				"ASPECT"
+			],
+			[
 				"nk",
 				"nk_filename"
 			],
@@ -28,28 +36,18 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "threejs_examples/project.html",
 			"settings":
 			{
-				"buffer_size": 6484,
-				"line_ending": "Windows"
+				"buffer_size": 5279,
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "Searching 25 files for \"X-Frame-Options\"\n\n0 matches across 0 files\n\n\nSearching 25 files for \"SAMEORIGIN\"\n\n0 matches across 0 files\n\n\nSearching 25 files for \"row_half\"\n\n0 matches across 0 files\n",
+			"file": "threejs_examples/project_static_ball.html",
 			"settings":
 			{
-				"buffer_size": 193,
-				"line_ending": "Unix",
-				"name": "Find Results",
-				"scratch": true
-			}
-		},
-		{
-			"file": "stylesheets/stylesheet.css",
-			"settings":
-			{
-				"buffer_size": 7616,
+				"buffer_size": 2404,
 				"line_ending": "Unix"
 			}
 		}
@@ -57,9 +55,13 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 207.0,
+		"height": 367.0,
 		"selected_items":
 		[
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			],
 			[
 				"space",
 				"Indentation: Convert to Spaces"
@@ -90,12 +92,19 @@
 	},
 	"file_history":
 	[
+		"/Users/feeley19/Library/Application Support/Sublime Text 2/Packages/0_package_control_loader/00-package_control.py",
+		"/Users/feeley19/Library/Application Support/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/feeley19/Git/webpage/project_static_ball.html",
+		"/Users/feeley19/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/feeley19/Git/webpage/index.html",
+		"/Users/feeley19/Git/webpage/stylesheets/stylesheet.css",
+		"/Users/feeley19/Git/webpage/project_gobe.html",
+		"/Users/feeley19/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
 		"/Users/feeley19/Git/webpage/gameindex.html",
 		"/Users/feeley19/Git/webpage/css/font/fontawesome-webfont.svg",
 		"/Users/feeley19/Git/webpage/css/style.css",
 		"/Users/feeley19/Git/webpage/js/init.js",
 		"/Users/feeley19/Git/webpage/css/style-mobile.css",
-		"/Users/feeley19/Git/webpage/stylesheets/stylesheet.css",
 		"/Users/feeley19/Git/webpage/css/style-desktop.css",
 		"/Users/feeley19/Git/webpage/css/noscript.css",
 		"/Users/feeley19/Git/webpage/javascripts/main.js",
@@ -121,6 +130,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"installed_packages",
+			"installed_pa",
+			"move",
 			"target",
 			"row_half",
 			"SAMEORIGIN",
@@ -171,18 +183,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "threejs_examples/project.html",
 					"settings":
 					{
-						"buffer_size": 6484,
+						"buffer_size": 5279,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								192,
-								192
+								1676,
+								1676
 							]
 						],
 						"settings":
@@ -191,66 +203,34 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1024.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"file": "threejs_examples/project_static_ball.html",
 					"settings":
 					{
-						"buffer_size": 193,
+						"buffer_size": 2404,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								133,
-								133
+								667,
+								676
 							]
 						],
 						"settings":
 						{
-							"detect_indentation": false,
-							"output_tag": 3,
-							"result_base_dir": "",
-							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
-							"result_line_regex": "^ +([0-9]+):",
-							"scroll_past_end": true,
-							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 198.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "stylesheets/stylesheet.css",
-					"settings":
-					{
-						"buffer_size": 7616,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 130.0,
+						"translation.y": 613.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -299,6 +279,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"",
+				"/Users/feeley19/Library/Application Support/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings"
+			]
 		],
 		"width": 0.0
 	},
